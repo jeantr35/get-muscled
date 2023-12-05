@@ -1,0 +1,17 @@
+package dev.lugus.user.application.commands;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class UserRegisterCommand extends UserLoginCommand{
+
+    private String username;
+    private String role;
+
+}
